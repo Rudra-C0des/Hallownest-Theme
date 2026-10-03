@@ -13,7 +13,7 @@
 }
 
 @font-face {
-  font-family: "Rye";
+  font-family: "NameFont";
   src: url('assets/fonts/Press_Start_2P,Roboto,Rye/Rye/Rye-Regular.ttf') format('truetype');
   font-display: swap;
 }
@@ -51,7 +51,7 @@ body {
   margin-bottom: 1.25rem;
 }
 .brand {
-  font-family: "Rye", var(--mono);
+  font-family: "NameFont", var(--mono);
   font-size: 1.5rem;
   font-weight: bold;
   color: var(--cream);
