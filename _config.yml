@@ -1,0 +1,21 @@
+title: Shallow Nest
+name: Your Name
+tagline: A little light in the dark.
+description: A dark, vibrant Jekyll theme.
+author: Your Name
+
+# Contact details (delete any line you don't want shown)
+email: you@example.com
+github: yourusername
+
+# remote_theme: yourusername/shallow-nest
+# plugins:
+#   - jekyll-remote-theme
+
+nav:
+  - title: Home
+    url: /
+  - title: Projects
+    url: /projects/
+  - title: Experience
+    url: /experience/

@@ -1,0 +1,22 @@
+---
+layout: default
+---
+{{ content }}
+
+{% if site.posts.size > 0 %}
+<h2>Latest</h2>
+<ul class="posts">
+  {% for post in site.posts %}
+  <li>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <span class="meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+<h2 id="contact">Contact</h2>
+<ul class="contact">
+  {% if site.email %}<li>email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>{% endif %}
+  {% if site.github %}<li>github: <a href="https://github.com/{{ site.github }}">{{ site.github }}</a></li>{% endif %}
+</ul>
