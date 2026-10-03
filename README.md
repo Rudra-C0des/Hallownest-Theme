@@ -1,6 +1,6 @@
-# Shallow Nest
+# Hallownest
 
-A dark, vibrant Jekyll theme inspired by Hallownest. Cyan and orange on a void-blue background.
+A dark, vibrant Jekyll theme inspired by Hallownest from Hollow Knight. Neon blue and orange on a void-blue black.
 
 ## Install (GitHub Pages)
 

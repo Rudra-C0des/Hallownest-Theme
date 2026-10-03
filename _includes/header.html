@@ -1,9 +1,8 @@
 <header class="site-header">
-  <a class="brand" href="{{ '/' | relative_url }}">{{ site.name | default: site.title }}
-    <span class="">_</span></a>
+  <a class="brand" href="{{ '/' | relative_url }}">{{ site.name | default: site.title }}<span class="cursor"></span></a>
   <nav>
-    {% for item in site.nav %}
-      <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-    {% endfor %}
+  {% for item in site.nav %}
+    <a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% unless forloop.last %}<span class="sep"> | </span>{% endunless %}
+  {% endfor %}
   </nav>
 </header>
